@@ -130,7 +130,7 @@ main section figcaption{
     padding: 10px;
 }
 
-/* -----------------------CONFIGURATION HEADER---------------------- */
+/* ----------------------- HEADER ---------------------- */
 /* -------- CONFIG H1 -------------*/
 h1::after{
     bottom: 0;
@@ -158,9 +158,9 @@ nav section:last-of-type figure{
     width: 25px;
     margin-left: 10px;
 }
-/* ------------------------------------------------FIN DU HEADER ------------------------------------------------------ */
+/* ------------------------------------------------ END HEADER ------------------------------------------------------ */
 
-/* ---------------------------------------------CONFIGURATION MAIN ------------------------------------------------------ */
+/* --------------------------------------------- MAIN ------------------------------------------------------ */
 /* -------- SECTION PRESENTATION ------------*/
 h2 span{
     color: var(--colorSpanH2-);
@@ -176,7 +176,7 @@ main section figcaption{
     font-size: 1.7rem;
 }
 
-/* -------- SECTION PHOTO HERO ------------- */
+/* -------- SECTION PICTURE HERO ------------- */
 main section + section + div > section {
     flex-direction: column;
     width: 612px;
@@ -201,7 +201,7 @@ main section + section + div > section {
     height: 300px;
 }
 
-/* PICTURE 2 à 4*/
+/* PICTURE 2 to 4*/
 .secondFourPicture figure, 
 .lastPictures figure{
     width: 145px;
@@ -240,7 +240,7 @@ aside a:first-of-type{
     display: block;
 }
 
-/*------------------------------------------------footer-------------------------------------------------------*/
+/*----------------------------------------------- footer ------------------------------------------------------*/
 footer{
     margin-top: 25px;
 }
@@ -254,7 +254,7 @@ footer p{
     text-align: center;
 }
 
-/*-----------------------------------------------media queries----------------------------------------------------*/
+/*---------------------------------------------- media queries ---------------------------------------------------*/
 @media screen and (max-width: 1599px) and (min-width: 960px) {
     body{
         width: 960px;
